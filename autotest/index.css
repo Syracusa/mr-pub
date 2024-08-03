@@ -1,0 +1,34 @@
+.main-cont {
+    border: 1px #000000 solid;
+
+}
+
+.left-cont {
+
+    border: 1px #ff00ff solid;
+
+    width: 50%;
+
+}
+
+.right-cont {
+    border: 1px #00ffff solid;
+
+    width: 50%;
+}
+
+.stage-cont {
+    border: 1px #0ff0f0 solid;
+}
+
+.anomaly-cont {
+    border: 1px #0f00ff solid;
+}
+
+.bottom-cont {
+    border: 1px orange solid;
+}
+
+.debug-cont {
+    border: 1px maroon solid;
+}
