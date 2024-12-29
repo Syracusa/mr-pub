@@ -96,17 +96,14 @@ def visualize_merge_sort():
         fig, 
         update, 
         frames=generator, 
-        interval=500,  # Time in ms between frames
+        interval=100,  # Time in ms between frames
         repeat=False,
-        blit=False,
-        cache_frame_data=False
+        blit=False
     )
     
     plt.xlabel("Index")
     plt.ylabel("Value")
     plt.show()
-    
-    return ani
 
 if __name__ == "__main__":
-    anim = visualize_merge_sort()
+    visualize_merge_sort()
